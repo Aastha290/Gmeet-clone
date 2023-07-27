@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="./images/favicon.png">
+    <script src="https://tailwindcss.com/"></script>
+    <!-- <script src="https://fontawesome.com/" crossorigin= "anonymous"></script> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-RRjRZaK49gU8k6oXm0q0DHvTjc6zxVoJwhIo/n6iBzI4JqRImJLH1eY5MvLI21+Z" crossorigin="anonymous">
+    <title>Gmeet Clone</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="text-gray-600 body-font header">
+        <a href="#" class="httpflex w-40 my-link">
+            <img src="images/images/logo.svg" alt="logo" class="cursor-pointer">
+        </a>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li class="nav-items"><a href="https://cloud.google.com/solutions#solutions" target="_blank">Solutions</a></li>
+                <li class="nav-items"><a href="https://workspace.google.com" target="_blank">Plans & Pricing</a></li>
+                <li class="nav-items"><a href="https://workspace.google.com/contact/?source=gafb-homepage-globalnav-en-IN" target="_blank">Contact Sales</a></li>
+                <li class="nav-items"><a href="https://cloud.google.com/resource-manager" target="_blank">Resources</a></li>
+            </ul>
+        </nav>
+        <div class="right-container" id="head_join_btn">
+            <button class="sub-btn">Join a meeting</button>
+            <button class="btn">Start a meeting</button>
+        </div>
+    </header>
+
+    <section class="text-gray-600 body-font">
+        <div class="container">
+            <div class="lex">
+                <h2 class="lex h2">Premium video meetings for everyone.</h2>
+                <p class="lex p">We re-engineered the service we built for secure,high-quality bussiness meetings,
+                    Google meet, to make it avilablefor all, on any device.</p>
+                <div class="flex">
+                    <button class="btn1">
+                        <i class="fas fa-video icon"></i><div onclick="submit()">Start a meeting</div>
+                    </button>
+                    <input type="text" class="box" placeholder="Enter a meeting code" id="join_meeting_input">
+                    <p class="text">Join</p>
+                </div>
+                <p  class="text1">
+                    Don't have an account?
+                    <a href="https://support.google.com/" class="span">Get Started Now</a>
+                </p>
+            </div>
+            <div class="div">
+                <img src="./images/images/image1.png" alt="first image" class="object">
+            </div>
+        </div>
+    </section>
+    <!-- mid section -->
+    <hr class="border">
+    <h2 class="h2">See what you can do with Google Meet</h2>
+    <i class="fa-solid fa-angle-down"></i>
+
+    <section class="text-gray-600 body-font">
+        <div class="div2">
+            <div class="flex2">
+                <h1 class="head">Meet Safely</h1>
+                <p class="p2">Meet uses the same protection that Google uses to secure your information and safeguard
+                    your privacy. Meet video confrences are encrypted in transit, and our array of safety measures are
+                    countinuously updated for added protection.</p>
+                <div  class="flex3">
+                    <a href="https://cloud.google.com/security/compliance" class="p3">Learn more about security and compliance</a>
+                </div>
+            </div>
+            <div class="lex2">
+                <img src="./images/images/image2.png" alt="second image" class="object2">
+            </div>
+        </div>
+    </section>
+
+    <section class="text-gray-600 body-font">
+        <div class="div3">
+            <div class="lex3">
+                <img src="./images/images/image3.png" alt="third image" class="object3">
+            </div>
+            <div class="flex5">
+                <h1 class="head1">Meet from anywhere</h1>
+                <p class="p4">
+                    Get the whole crew together in Google Meet, Where you can present business proposals, collaborate on
+                    chemistry
+                    assignments, or just catch up face to face. <br /><br />Bussinesses, schools and other organizations
+                    can live stream
+                    mettings to 100,000 viewers within their domain.
+                </p>
+                <div class="flex6">
+                    <a href="https://workspace.google.com/intl/en_in/pricing.html" class="p5">See plans and pricing for organization</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Third Section -->
+    <section class="text-gray-600 body-font">
+        <div class="div4">
+            <div class="lex4">
+                <h1 class="head2">Meet on any device</h1>
+                <p class="p6">
+                    Invited guests can join an online video confrence from their computer using any modern web
+                    browser-no software to
+                    install. On mobile devices, they can join from the Google Meet app. guests can even join meetings
+                    from Google Nest
+                    Hub Max.
+                </p>
+                <div class="flex7">
+                    <a href="https://support.google.com/chrome/a/answer/9823931?hl=en" class="p7">Enble hybrid work with Chrome OS devices</a>
+                </div>
+            </div>
+            <div class="flex8">
+                <img src="./images/images/image4.png" alt="fourth image" class="object4">
+            </div>
+        </div>
+    </section>
+
+    <!-- fourth section -->
+    <section class="text-gray-600 body-font">
+        <div class="div5">
+            <div class="flex9">
+                <img src="./images/images/image5.png" alt="fifth image" class="object5">
+            </div>
+            <div class="lex5">
+                <h1 class="head3">Meet Clearly</h1>
+                <p class="p8">Google Meet adjust to your
+                    network speed, ensuring high quality video calls wherever you are,
+                    New AI echancements keep your calls clear even when your surroundings
+                    aren't. </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- fifth section -->
+    <section class="text-gray-600 body-font">
+        <div class="div6">
+            <div class="lex6">
+                <h1 class="head4">Meet with everyone</h1>
+                <p class="p9">With live captions powered by
+                    Google's speech recognition technology,Google Meet makes meetings more accessible. For non-native
+                    speakers, hearing
+                    impaired participants, or just noisy ee shops, live captions make it easy for everyone to follow
+                    along(available in
+                    English only).
+                </p>
+                <div class="flex10">
+                    <a href="https://www.google.com/accessibility/" class="p10">Learn more about accessbility features.</a>
+                </div>
+            </div>
+            <div class="flex11">
+                <img src="./images/images/image6.png" alt="sixth image" class="object5">
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="div7">
+            <a href="#" class="img1">
+                <img src="./images/images/logo.svg" alt="footer logo" class="object6">
+            </a>
+            <nav class="nav">
+                <a href="https://about.google/intl/ALL_in/" class="nav-class">About Google</a>
+                <a href="https://about.google/intl/ALL_in/products/" target="_blank" class="nav-class">Google Products</a>
+                <a href="https://policies.google.com/privacy?hl=en-IN" target="_blank" class="nav-class">Privacy</a>
+                <a href="https://policies.google.com/terms?hl=en" target="_blank" class="nav-class">Terms</a>
+            </nav>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>
